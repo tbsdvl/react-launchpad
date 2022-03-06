@@ -21,9 +21,9 @@ In your react-launchpad app's root directory, enter the following command into a
 
 ```git remote remove origin```
 
-This command will remove react-launchpad's remote origin from your local git repository.
+This command will remove the inherited remote origin from your clone of the react-launchpad repository.
 
-To add your own remote repository to your react-launchpad app, navigate to the app's root directory and enter the following command into a git bash terminal:
+To add code from your clone's local repository to a different github remote repository, navigate to the clone's root directory and enter the following command into a git bash terminal:
 
 ```git remote add origin git@github.com:{your-username}/{name-of-remote-repository.git}```
 
@@ -32,7 +32,7 @@ Be sure to exclude the curly braces around the names of your username and your r
 # Description
 react-launchpad is a simple toolchain for building React JS applications with React-Bootstrap.
 
-react-launchpad acts a foundation for scalable React JS applications. 
+react-launchpad acts a foundation for scalable React JS projects & applications. 
 
 It includes a few essential npm dependencies for loading Bootstrap CSS styles & writing test suites for your application's code.
 

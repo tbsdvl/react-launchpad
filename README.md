@@ -192,7 +192,7 @@ Javascript files containing test suites for React components must include the fo
  */
 ```
 
-At the top of every React component test file jest will setup the proper environment to run test suites for your React components.
+jest will setup the proper environment to run DOM rendering test suites for your React components.
 
 #### getReact.js
 ```

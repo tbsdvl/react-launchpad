@@ -23,7 +23,7 @@ In your react-launchpad app's root directory, enter the following command into a
 
 This command will remove the inherited remote origin from your clone of the react-launchpad repository.
 
-To add code from your clone's local repository to a different github remote repository, navigate to the clone's root directory and enter the following command into a git bash terminal:
+To add code from your clone's local repository to a different remote repository on github, navigate to the clone's root directory and enter the following command into a git bash terminal:
 
 ```git remote add origin git@github.com:{your-username}/{name-of-remote-repository.git}```
 

@@ -39,13 +39,12 @@ It includes a few essential npm dependencies for loading Bootstrap's CSS styles 
 Unlike other React toolchains, react-launchpad's design allows developers to include 
 additional dependencies, libraries, and babel loaders as needed throughout development.
 
-# Installation
-To install react-launchpad, open a new git bash terminal and navigate 
-to the directory where you intend to store the new react-launchpad app.
+# Create a new react-launchpad app
+To create a react-launchpad app, open a new git bash terminal and navigate to the working directory that will store the cloned repository.
 
 ### npx
 
-Once inside of the directory, enter the following command into your terminal:
+Inside of the correct working directory enter the following command into your terminal:
 ```
 npx @rlpd/create-react-launchpad-app new-app-name
 ```

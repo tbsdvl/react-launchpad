@@ -106,7 +106,7 @@ These dependencies are already included under devDependencies in the root direct
 
 # Usage
 ### npm run build
-To run a production build of your app, you will need to change the webpack configuration's mode from "development" to "production".
+To run a production build of your app, you will need to change the webpack configuration's ```mode``` property from "development" to "production".
 
 #### webpack.config.js
 ```

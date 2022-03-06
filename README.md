@@ -82,7 +82,7 @@ new-app-name
 └── webpack.config.js
 ```
 
-When the installation successfully completes, the terminal will display the following:
+When the installation successfully completes, the terminal will display the following output:
 ```
 Congrats! Execute the following commands and you're ready to go. Happy coding!
 cd new-app-name && npm start

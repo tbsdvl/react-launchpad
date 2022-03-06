@@ -13,11 +13,9 @@ A custom React toolchain
 
 # Important!
 
-Currently, react-launchpad uses the
+### Updating the clone's remote origin
 
-```git clone https://github.com/tbsdvl/react-launchpad.git ${repoName}```
-
-command during installation. Since this command will create a new cloned repository, you will need to remove the remote origin if you wish to add new react-launchpad apps to your own remote repositories.
+react-launchpad uses the ```git clone``` command to create a clone of the repository to your local directory. A clone in a user's local directory will inherit the repository's remote origin, preventing the clone from pushing to a user's remote origin of choice. A user must remove the clones's current remote origin and replace it with the url to their own remote github repository.
 
 In your react-launchpad app's root directory, enter the following command into a git bash terminal:
 

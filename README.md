@@ -36,6 +36,7 @@ Be sure to exclude the curly braces around the names of your username and your r
 
 # Description
 react-launchpad is a simple toolchain for building React JS applications with React-Bootstrap.
+<img alt="install_example" src="https://i.ibb.co/Zx059Fq/Launchpad-Example.gif" />
 
 react-launchpad acts a foundation for scalable React JS projects & applications. 
 
@@ -99,7 +100,7 @@ new react-launchpad app should run on http://localhost:3000/.
 
 
 Visit http://localhost:3000/ in your browser to see your new react-launchpad app.
-<img src="https://i.ibb.co/Ksd8df0/launchpad-app-example.jpg" />
+<img alt="app_landing_page" src="https://i.ibb.co/Ksd8df0/launchpad-app-example.jpg" />
 
 When the app is shut down navigate to your react-launchpad app's root directory and run:
 ```

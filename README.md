@@ -15,7 +15,7 @@ A custom React toolchain
 
 Currently, react-launchpad uses the
 
-```git clone --depth 1 https://github.com/tbsdvl/react-launchpad.git ${repoName}```
+```git clone https://github.com/tbsdvl/react-launchpad.git ${repoName}```
 
 command during installation. Since this command will create a new cloned repository, you will need to remove the remote origin if you wish to add new react-launchpad apps to your own remote repositories.
 

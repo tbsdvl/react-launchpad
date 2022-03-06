@@ -155,7 +155,7 @@ Afterwards, you may run ```npm run build``` in a git bash terminal for a product
 
 ### npm run test
 react-launchpad has a setupTests.js file in your ```/src``` directory. This file will import dependencies for testing axios requests and 
-React components using a jest-dom testing enviroment.
+React components that use a jest-dom testing enviroment.
 It is highly recommended that you do not delete this file, as it contains the necessary imports for axios to mock http requests and
 allow jest to test your application's React components.
 

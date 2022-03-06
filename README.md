@@ -40,7 +40,7 @@ Unlike other React toolchains, react-launchpad's design allows developers to inc
 additional dependencies, libraries, and babel loaders as needed throughout development.
 
 # Create a new react-launchpad app
-To create a react-launchpad app, open a new git bash terminal and navigate to the working directory that will store the cloned repository.
+To create a react-launchpad app, open a new git bash terminal and navigate to the working directory that will store a clone of the repository.
 
 ### npx
 

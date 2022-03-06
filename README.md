@@ -94,7 +94,7 @@ new react-launchpad app should run on http://localhost:3000/.
 
 
 Visit http://localhost:3000/ in your browser to see your new react-launchpad app.
-<img src="https://i.ibb.co/LkZh7q8/launchpad-app-example.jpg" />
+<img src="https://i.ibb.co/Ksd8df0/launchpad-app-example.jpg" />
 
 When the app is shut down navigate to your react-launchpad app's root directory and run:
 ```

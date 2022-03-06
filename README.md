@@ -48,7 +48,7 @@ Inside of the correct working directory enter the following command into your te
 ```
 npx @rlpd/create-react-launchpad-app new-app-name
 ```
-Where "new-app-name" is your preferred name for the directory of your new react-launchpad app.
+Where "new-app-name" is the preferred name for the directory of your new react-launchpad app.
 
 This is the initial react-launchpad app's directory structure:
 ```

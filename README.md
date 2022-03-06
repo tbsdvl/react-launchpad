@@ -207,7 +207,7 @@ it('makes a request to the react website', async () => {
 });
 ```
 
-jest will mock axios http requests, in this example it expects a response object from <a href="https://reactjs.org/">https://reactjs.org/</a>
+jest will mock axios http requests, in this example it expects a response object after making a GET request to <a href="https://reactjs.org/">https://reactjs.org/</a>
 
 At your react-launchpad app's root directory, enter ```npm run test``` to run the test suites in your ```__tests__``` directory.
 

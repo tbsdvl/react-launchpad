@@ -36,7 +36,6 @@ Be sure to exclude the curly braces around the names of your username and your r
 
 # Description
 react-launchpad is a simple toolchain for building React JS applications with React-Bootstrap.
-<img alt="install_example" src="https://i.ibb.co/Zx059Fq/Launchpad-Example.gif?raw=true" width="200px"  />
 
 react-launchpad acts a foundation for scalable React JS projects & applications. 
 

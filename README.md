@@ -34,7 +34,7 @@ react-launchpad is a simple toolchain for building React JS applications with Re
 
 react-launchpad acts a foundation for scalable React JS projects & applications. 
 
-It includes a few essential npm dependencies for loading Bootstrap CSS styles & writing test suites for your application's code.
+It includes a few essential npm dependencies for loading Bootstrap's CSS styles & writing test suites for your application's code.
 
 Unlike other React toolchains, react-launchpad's design allows developers to include 
 additional dependencies, babel loaders, and libraries as needed throughout development.

@@ -168,7 +168,7 @@ import "@testing-library/jest-dom";
 ```
 
 All tests are located in ```./src/__tests__```. Each react-launchpad app will contain two initial Javascript files.
-Each of these Javascript files provide examples for testing React components in a jest-dom environment and axios http requests.
+Each of these Javascript files provide examples for testing React components in a jest-dom environment and mocking axios http requests.
 
 #### App.js
 ```

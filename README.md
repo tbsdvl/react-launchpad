@@ -192,7 +192,7 @@ Including
  */
 ```
 
-At the top of every React component test file will allow jest to setup the proper testing environment for React components.
+At the top of every React component test file jest will setup the proper environment to run test suites for your React components.
 
 #### getReact.js
 ```

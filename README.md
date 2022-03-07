@@ -164,10 +164,7 @@ module.exports = {
 Afterwards, you may run ```npm run build``` in a git bash terminal for a production build of the app.
 
 ### npm run test
-react-launchpad has a setupTests.js file in your ```/src``` directory. This file will import dependencies for testing axios requests and 
-React components that use a jest-dom testing enviroment.
-It is highly recommended that you do not delete this file, as it contains the necessary imports for axios to mock http requests and
-allow jest to run test suites for your application's React components.
+react-launchpad has a setupTests.js file in the ```/src``` directory. This file will import dependencies for testing axios requests and React components that use a jest-dom testing enviroment. It is highly recommended that you do not delete this file, as it contains the necessary imports for axios to mock http requests and allow jest to run test suites for your application's React components.
 
 #### setupTests.js
 ```
@@ -177,8 +174,7 @@ import 'regenerator-runtime/runtime';
 import "@testing-library/jest-dom";
 ```
 
-All tests are located in ```./src/__tests__```. Each react-launchpad app will contain two initial Javascript files.
-Each of these Javascript files provide examples for testing React components in a jest-dom environment and mocking axios http requests.
+All tests are located in ```./src/__tests__```. Each react-launchpad app will contain two initial Javascript files. Each of these Javascript files provide examples for testing React components in a jest-dom environment and mocking axios http requests.
 
 #### App.js
 ```

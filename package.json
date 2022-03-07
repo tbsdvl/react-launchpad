@@ -1,6 +1,6 @@
 {
   "name": "@rlpd/create-react-launchpad-app",
-  "version": "1.0.4",
+  "version": "1.0.20",
   "main": "index.js",
   "description": "A simple, custom React toolchain for quickly deploying new React apps.",
   "bin": "./bin/cli.js",
@@ -29,6 +29,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.7.0",
     "file-loader": "^6.2.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.70.0",
@@ -36,7 +37,13 @@
     "webpack-dev-server": "^4.7.4"
   },
   "jest": {
-    "setupFilesAfterEnv": ["./src/setupTests.js"] 
+    "setupFilesAfterEnv": [
+      "./src/setupTests.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
+      "\\.css$": "identity-obj-proxy"
+    }
   },
   "repository": {
     "type": "git",

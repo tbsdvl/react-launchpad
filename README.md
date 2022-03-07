@@ -195,7 +195,7 @@ it('renders the App comoponent', () => {
 });
 ```
 
-Javascript files containing tests for React components must include the following docblock preceding any test code. 
+Javascript files containing tests for React components must include the following docblock preceding any imports or test code. 
 ```
 /**
  * @jest-environment jsdom

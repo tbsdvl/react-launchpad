@@ -63,7 +63,6 @@ my-launchpad-app
 |   ├── 45f8382c6f6e1f45f05d3cbd3dbccd1f.png
 |   ├── bundle.js
 |   └── bundle.LICENSE.txt
-├── README.md
 ├── node_modules
 ├── package.json
 ├── .gitignore
@@ -72,9 +71,13 @@ my-launchpad-app
 |   |   └── launchpad_logo.png
 │   └── index.html
 └── src
+|   ├── __mocks__
+|   |   └── fileMock.js
 |   ├── __tests__
 |   |   ├── App.js
 |   |   └── getReact.js
+|   ├── styles
+|   |   └── app.module.css
 |   ├── util
 |   |   └── API.js
 |   ├── App.js
@@ -85,6 +88,7 @@ my-launchpad-app
 ├── LICENSE.txt
 ├── package-lock.json
 ├── package.json
+├── README.md
 └── webpack.config.js
 ```
 

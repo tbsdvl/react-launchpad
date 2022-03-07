@@ -198,7 +198,7 @@ Javascript files containing tests for React components must include the followin
  */
 ```
 
-jest will setup the proper environment to run DOM rendering tests for your React components.
+jest will setup the proper environment to run ReactDOM rendering tests for your React components.
 
 #### getReact.js
 ```

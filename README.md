@@ -27,10 +27,10 @@ To add code from your clone's local repository to a different remote repository 
 
 ### ssh
 
-```git remote add origin git@github.com:{your-username}/{name-of-remote-repository}.git```
+```git remote add origin git@github.com:{a-github-username}/{name-of-remote-repository}.git```
 
 ### https
-```git remote add origin https://github.com/{your-username}/{name-of-remote-repository}.git```
+```git remote add origin https://github.com/{a-github-username}/{name-of-remote-repository}.git```
 
 Be sure to exclude the curly braces around the names of your username and your remote github repository. Running this will update the clone's remote origin to the url that is passed into the command.
 

@@ -49,13 +49,12 @@ react-launchpad's design allows developers to install additional dependencies, l
 To create a react-launchpad app, open a new git bash terminal and navigate to the working directory that will store a clone of the repository.
 
 ### npx
-
-Inside of the correct working directory, enter the following command into your terminal:
+Enter the following command to create a new react-launchpad app:
 ```
 npx @rlpd/create-react-launchpad-app my-launchpad-app
 ```
 
-```my-launchpad-app``` is the name for of the new react-launchpad app. You may name it whatever you like.
+```my-launchpad-app``` is the name for of the new react-launchpad app. You can use any name for the app.
 
 
 This is the initial react-launchpad app's directory structure:
@@ -100,8 +99,7 @@ Congrats! Execute the following commands and you're ready to go. Happy coding!
 cd my-launchpad-app && npm start
 ```
 
-Enter ```cd my-launchpad-app && npm start``` into your terminal and your
-new react-launchpad app should run on http://localhost:3000/.
+Enter ```cd my-launchpad-app && npm start``` into your terminal and your new react-launchpad app should run on http://localhost:3000/.
 
 
 Visit http://localhost:3000/ in your browser to see your new react-launchpad app.

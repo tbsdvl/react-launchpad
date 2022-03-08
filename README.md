@@ -236,6 +236,8 @@ react-launchpad configures jest to mock css modules and file extensions with ```
     }
 ```
 
+This configuration will tell jest to mock css modules & files of any extension included in the moduleNameMapper property.
+
 # Dependencies
 
 react-launchpad currently includes the following dependencies.

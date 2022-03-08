@@ -50,7 +50,7 @@ To create a react-launchpad app, open a new git bash terminal and navigate to th
 
 ### npx
 
-Inside of the correct working directory enter the following command into your terminal:
+Inside of the correct working directory, enter the following command into your terminal:
 ```
 npx @rlpd/create-react-launchpad-app my-launchpad-app
 ```

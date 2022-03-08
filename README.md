@@ -43,7 +43,7 @@ It includes a few essential npm dependencies like loaders for Bootstrap's CSS st
 
 react-launchpad's design allows developers to install additional dependencies, libraries, and babel loaders as needed throughout development.
 
-Check out a live deployment of react-launchpad <a href="https://focused-morse-f0bd6d.netlify.app/">here</a>
+Check out a live deployment of react-launchpad <a href="https://focused-morse-f0bd6d.netlify.app/" target="_blank">here</a>
 # Installation
 
 ## Create a new react-launchpad app

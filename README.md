@@ -114,6 +114,13 @@ You do not need to install additional dependencies like webpack or babel to run 
 These dependencies are already included under devDependencies in the root directory's package.json.
 
 # Usage
+### npm start
+To start the app, enter the following command in a git bash terminal at the app's root directory:
+
+```npm start```
+
+This will start the react-launchpad app at http://localhost:3000/. Visit the url in your browser to confirm the app is running.
+
 ### npm run build
 To run a production build of your app, you will need to change the webpack configuration's ```mode``` property from ```"development"``` to ```"production"```.
 
@@ -215,6 +222,19 @@ it('makes a request to the react website', async () => {
 jest will mock axios http requests, in this example it expects a response object after making a GET request to <a href="https://reactjs.org/">https://reactjs.org/</a>
 
 At your react-launchpad app's root directory, enter ```npm run test``` to run the test suites in your ```__tests__``` directory.
+
+### Testing with css modules and files
+
+react-launchpad configures jest to mock css modules and file extensions with ```identity-obj-proxy```. This allows jest to read ```.css``` and files with other extensions imported in your React components. react-launchpad configures ```identity-obj-proxy``` in the package.json.
+
+#### package.json
+
+```
+"moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
+      "\\.css$": "identity-obj-proxy"
+    }
+```
 
 # Dependencies
 

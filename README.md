@@ -32,7 +32,7 @@ To add code from your clone's local repository to a different remote repository 
 ### https
 ```git remote add origin https://github.com/{a-github-username}/{name-of-remote-repository}.git```
 
-Be sure to exclude the curly braces around the names of the username and the remote github repository. Running this will update the clone's remote origin to the url that is passed into the command.
+Be sure to exclude the curly braces around the names of the github username and the remote github repository. Running this will update the clone's remote origin to the url that is passed into the command.
 
 # Description
 react-launchpad is a simple toolchain for building React JS applications with React-Bootstrap.

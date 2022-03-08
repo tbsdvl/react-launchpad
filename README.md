@@ -17,7 +17,7 @@ A custom React toolchain
 
 react-launchpad uses the ```git clone``` command to create a clone of the repository to your working directory. A clone in a user's working directory will inherit the repository's remote origin, preventing users from adding the clone to a different remote repository. Users needing to add the clone's contents to their own remote repository will need to replace the clone's inherited origin url with their own remote repository's origin url. Users can find the correct urls when they create a new remote repository on github. 
 
-In the react-launchpad 's root directory, enter the following command into a git bash terminal:
+In the react-launchpad app's root directory, enter the following command into a git bash terminal:
 
 ```git remote remove origin```
 

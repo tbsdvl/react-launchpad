@@ -55,7 +55,7 @@ Enter the following command to create a new react-launchpad app:
 npx @rlpd/create-react-launchpad-app my-launchpad-app
 ```
 
-```my-launchpad-app``` is the name for of the new react-launchpad app. You can use any name for the app.
+```my-launchpad-app``` is the name of the new react-launchpad app. You can use any name you like for the app.
 
 
 This is the initial react-launchpad app's directory structure:
